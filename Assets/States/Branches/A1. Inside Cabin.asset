@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589b44ded2bdad14e8dcebcac597c296, type: 3}
+  m_Name: A1. Inside Cabin
+  m_EditorClassIdentifier: 
+  storyText: "It's a cold night in the swamp. You are eating your supper when you
+    hear indistinguishable noises outside your cabin. Thieves? Wild animals? What
+    could it be? Could check it face to face through the front door or go around
+    through the back, unseen. \n\nWhat should you do? \n1. Open the front door and
+    prepare to face what is doing all the noises. \n2. Open the back door and sneak
+    around the house to uncover the noises."
+  nextStates:
+  - {fileID: 11400000, guid: 31da3ad018b4a1d45a719f1258f61558, type: 2}
+  - {fileID: 11400000, guid: 96ee34ca06ebda941999d1adc88ca13a, type: 2}

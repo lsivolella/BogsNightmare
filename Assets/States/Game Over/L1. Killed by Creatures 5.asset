@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589b44ded2bdad14e8dcebcac597c296, type: 3}
+  m_Name: L1. Killed by Creatures 5
+  m_EditorClassIdentifier: 
+  storyText: "You try to grab the wolf, but it moves too fast and torns your arm
+    off. While lay hopeless on the ground and the beast feeds on your flesh, you
+    watch a pale blue light substance coming out of your body. The creatures are
+    sucking your soul! As your soul abandons your body, your sight fades and you
+    lie lifeless in a pool of blood on the floor. \n\nDo you wish to try again? \n1.
+    Yes, this time I shall destroy the Bog Creatures. \n2. No, I've had enough of
+    these Bog Creatures."
+  nextStates:
+  - {fileID: 11400000, guid: a7efdb02ddfee5044b5410521b3c1637, type: 2}
+  - {fileID: 11400000, guid: dc2c2894a4bcad242b46c9ab0ede5152, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589b44ded2bdad14e8dcebcac597c296, type: 3}
+  m_Name: A3. Back Inside Cabin
+  m_EditorClassIdentifier: 
+  storyText: "Good choice! You don't even know what is going on, it's safer to stay
+    inside. Except for the mice that are roaming around your cabin now, EW! You try
+    to calm down, but the noises are getting worse. What is strange about the sounds
+    is that the animals are not getting louder, something else is behind it\u2026
+    The death stench seems to be getting worse too. \n\nPerhaps staying inside is
+    not all that safe? \n1. Stay inside anyway and find a place to hide. \n2. Might
+    be safer to leave the cabin. Preparing to leave, you grab your rifle and a flashlight."
+  nextStates:
+  - {fileID: 11400000, guid: fb5c041dfbd17174d9be294d1c57c3db, type: 2}
+  - {fileID: 11400000, guid: b9e3b145bdda4da489cd593c75fd7b6d, type: 2}

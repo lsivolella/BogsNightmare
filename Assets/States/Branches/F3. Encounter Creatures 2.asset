@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589b44ded2bdad14e8dcebcac597c296, type: 3}
+  m_Name: F3. Encounter Creatures 2
+  m_EditorClassIdentifier: 
+  storyText: "As you wait frozen in fear you hear them approaching. You look to your
+    back and there they are, dark shapes in the night, the Bog Creatures! They really
+    exist! The smell of death is overwhelming. Their laughter has turned into a crash
+    of noises coming from all directions. They don\u2019t say a word and yet you
+    know what they want. \u201CObey us\u201D, they whisper in your mind. \u201CBow
+    your head\u201D. The whispers get more powerful. \u201CObey us\u201D, they demand.
+    \u201CYou belong to us now\u201D. \n\nWhat are you going to do? \n1. Bow your
+    head. \n2. Fight the creatures."
+  nextStates:
+  - {fileID: 11400000, guid: a6f0fa1820614cc4e9a8420970675424, type: 2}
+  - {fileID: 11400000, guid: f8481041e81fdac4abb8f215507736d4, type: 2}

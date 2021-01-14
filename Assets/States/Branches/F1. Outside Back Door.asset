@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589b44ded2bdad14e8dcebcac597c296, type: 3}
+  m_Name: F1. Outside Back Door
+  m_EditorClassIdentifier: 
+  storyText: "You open the back door and see nothing in the backyard. The sky is
+    a black sheet and the light of the cabin is not enough to light the yard. Noises
+    come from the front of the house, but something else grasps your attention. A
+    scent so strong it almost makes you pass out. It seems to be coming from all
+    directions. It smells of death, making your body feel like ice. \n\nShould you
+    run from the noises, or should you continue investigating? \n1. I don\u2019t
+    care what\u2019s going on, I\u2019m going to leave this place. \n2. I need to
+    find out what is going on. I will sneak around the house."
+  nextStates:
+  - {fileID: 11400000, guid: b504a37fa1790df49829d2476d75ed51, type: 2}
+  - {fileID: 11400000, guid: 6b7d0282f5b37f34786ae893e055dc3d, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589b44ded2bdad14e8dcebcac597c296, type: 3}
+  m_Name: H1. Going Around House
+  m_EditorClassIdentifier: 
+  storyText: "You go around the house and come across the strangest scene you have
+    ever seen. A flock of animals roaming on your yard. They look so scared! Three
+    black bears huddle under the light post and don't let any of the other animals
+    come near it. The deers that try to approach are received with wild roars. Raccoons,
+    mice and wolves walk from side to side trying to find a place in the confusion.
+    The death stench is also present here. You watch this scene mesmerized. What
+    the hell is going on? \n\nWhat will you do? \n1. Turn around and go back to the
+    backyard. \n2. Get inside though the front door."
+  nextStates:
+  - {fileID: 11400000, guid: b504a37fa1790df49829d2476d75ed51, type: 2}
+  - {fileID: 11400000, guid: 678e43721fbec044fb3ef49fd438dc9f, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589b44ded2bdad14e8dcebcac597c296, type: 3}
+  m_Name: H3. Hide Inside Wardrobe 1
+  m_EditorClassIdentifier: 
+  storyText: "You enter inside your wardrobe and close the door, praying for all
+    this to be over soon. Your prayer seems to have had an effect as the noises almost
+    cease. Even the mice who were roaming around the place are apparently gone. Except
+    for the stench. The death odor only seems to be getting worse. Feels like if
+    you stay any more time inside the wardrobe you are going to faint. \n\n1. Continue..."
+  nextStates:
+  - {fileID: 11400000, guid: e13562edba50a494aaa892d9fab79dc9, type: 2}

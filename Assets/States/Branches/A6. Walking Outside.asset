@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589b44ded2bdad14e8dcebcac597c296, type: 3}
+  m_Name: A6. Walking Outside
+  m_EditorClassIdentifier: 
+  storyText: "You make your way away from your cabin. The night sky is an ocean of
+    darkness and soon your flashlight is the only source of light. The death stench
+    seems to be following you as you walk, but now there's something else filling
+    the air. It's a weird sound, a silent laugh, a cold and mean giggle. You stop
+    to listen better and realize the giggles are aimed at you. Something is coming,
+    and deep inside you know it wants you to stop walking. \n\nWill you obey? \n1.
+    Stand still. \n2. Hell no, I'm running away from this nightmare! \n3. Whatever
+    this is, I'm going to fight it! Prepare your rifle."
+  nextStates:
+  - {fileID: 11400000, guid: 20cdcb0ba6892274cbf2fc35daa57342, type: 2}
+  - {fileID: 11400000, guid: 1cf17a12fd2a71841ae2d0e7981d1f4c, type: 2}
+  - {fileID: 11400000, guid: b53bd87ff4528244dbab31948fc633a3, type: 2}

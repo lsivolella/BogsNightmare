@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589b44ded2bdad14e8dcebcac597c296, type: 3}
+  m_Name: G1. Prepare to Fight Creatures
+  m_EditorClassIdentifier: 
+  storyText: "You make your best fighting pose and wait... Even though you are shaking
+    in fear, whatever is coming is going to feel your wrath! Soon you hear them approaching.
+    You look to your back and there they are, dark shapes in the night, the Bog Creatures!
+    They really exist! The smell of death is overwhelming. Their laughter has turned
+    into a crash of noises coming from all directions. \n\nHow are you going to fight
+    them? \n1. Sprint towards them and do a flying kick. \n2. Sway like a boxer and
+    land a couple of hits on their heads."
+  nextStates:
+  - {fileID: 11400000, guid: f8481041e81fdac4abb8f215507736d4, type: 2}
+  - {fileID: 11400000, guid: f8481041e81fdac4abb8f215507736d4, type: 2}

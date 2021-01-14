@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589b44ded2bdad14e8dcebcac597c296, type: 3}
+  m_Name: F2. Walking Outside 2
+  m_EditorClassIdentifier: 
+  storyText: "Good idea not to chase the noises, those could only bring you more
+    problems. You make your way away from your cabin. The night sky is an ocean of
+    darkness and soon you can\u2019t see a palm from your face. The death stench
+    seems to be following you as you walk, but now there's something else filling
+    the air. It's a weird sound, a silent laugh, a cold and mean giggle. You stop
+    to listen better and realize the giggles are aimed at you. Something is coming,
+    and deep inside you know it wants you to stop walking. \n\nWill you obey? \n1.
+    Stand still. \n2. Whatever this is, I'm going to fight it!"
+  nextStates:
+  - {fileID: 11400000, guid: c41cc75a2c4e6db4caaa3c5f5dad9a9a, type: 2}
+  - {fileID: 11400000, guid: 3eca09a999305ce4f90e5f761965c6e9, type: 2}

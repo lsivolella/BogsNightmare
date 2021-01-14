@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 589b44ded2bdad14e8dcebcac597c296, type: 3}
+  m_Name: H4. Hide Inside Wardrobe 2
+  m_EditorClassIdentifier: 
+  storyText: "As you wait inside the wardrobe you hear the back door opening\u2026
+    someone is coming inside! The lights are turned off and you hear muffled footsteps.
+    A few seconds after the lights have been turned off you hear a soft laughter,
+    a cold and mean giggle. You batter take action, and soon. \n\nWill you leave
+    the wardrobe or stay put? \n1. These things are not going away! I will leave
+    and face them! \n2. I\u2019m staying put! They will never find me here!"
+  nextStates:
+  - {fileID: 11400000, guid: 8cb4d440d08ca5d49811e5a5e4ac6967, type: 2}
+  - {fileID: 11400000, guid: bf8d1ac657fdc2b49bb9e475214e0c35, type: 2}
